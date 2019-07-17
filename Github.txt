@@ -1,0 +1,81 @@
+version Control is the management of changes to documents, computer programs, large web sites and other collections of informations .
+These changes are called versions.
+why version control system ? 
+1)collaboration : many developer can work on a same project at the same time, this increases speed and accuracy too.
+2) snapshots of version control system are properly documented and stored.
+3) versions are also named accurately.
+4) In any case, if central server crashes, a backup is always available on local servers.
+when you change versions:-
+1) vcs provides you with proper description.
+2) what exactly was changed.
+3) when it was changed.
+And hence you can analyse how your project evolved between versions.
+version control system tools:
+1) Git(open source,most popular)
+2) supervision (doesnt provide local copy to collaborators)
+3) cvs (doesnt provide local copy to collaborators)
+4) mercurial
+Repositery is basically a data space where any kind of files(mostly related to project) are placed.
+Difference between Git and Github:
+while git is a version control tool that will allow you to perform all kind of operation like push,pull update,commit,to fetch data from central server. It is just a version Control Management tool.
+Wheras Github is a code hosting platform for version control Collaboration. Github is just a company that allows you to host your central repositery and a remote circle.
+Advantages Of Distributed Control System over centeralised version Control System:
+1) Backup ( Distributed version control system provides backup in case centeralised server crashes and have loss of data)
+2) speed( it can easily access the codes as it has local copy with itself)
+what is Git?
+Git is a Distributed Version Control tool that supports distributed non linear workflows by providing data assurance for developing quality software.
+ features of git:
+ Distributed, Compatiable,Non linear, Branching,LightWeight,Speed,Open Source, Reliable,Secure, Economical.
+ Distributed:
+ Allows distributed developement of code.
+ Every Developer has a local copy of the entire developement history and changes are copied from one repositery to another.
+ Compatiable:
+ Compatiable with existing system and protocols.
+ SVN and SVK repositeries can be directly accessed using GIT-SVN.
+ Non Linear:
+ Supports non linear developement of software.
+ Includes various techniques to navigate and visualise non linear developemnt history.
+ Branching:
+ It takes only few seconds to create and merge branches.
+ Master Branch always contains Production Quality Code.
+ lightweight:
+ use lossless Compression technique to compress data on client's side.
+ speed:
+ Fetching Data from Local Repositery is 100 times faster than remote repositery.
+ GIT is one order of magnitude faster than other VCS Tools.
+ Git is written in C language.
+ Open Source:
+ You Can modify its source code according to your needs.
+ Reliable:
+ On Events Of local Crash, the lost data can be easily recovered from any of the local repositeries of the collaborators.
+ Secure:
+ uses SHA1 to name and identify objects.
+ Every file and commit is checksummed and is retrieved by its checksumat time of check out.
+ Economical:
+ it is free.
+ Released under GPL's License.
+ All Heavy Lifting is done on client side , hence a lot of money can be saved on costly servers.
+ What is a Repository??
+ A directory or storage space where your projects can live . It can be local to a folder on your computer or it can be a storage space on github or another online host . You can keep code files , text files , image files you name it inside a repository.
+ There are 2 types of repository:
+ 1. Central repository
+ - typically located on local server.
+ - Exclusively consist of .git repository folder
+ - Meant for team to share and exchange data.
+ 2. Local Repository
+ -  typically located on local machine.
+ -  Resides as a .git folder inside your project's root.
+ - only admin of machine can work with this.
+ git init is used to create local repositery (c->create a folder-> right click and click git bash here )
+ git status : it tells which files are added to index and are ready to commit.
+ git add : lets u add files to index.
+ git commit: recording snapshots of repository at a given time.
+ commited snapshots will never change unless done explitily.
+ 
+
+
+
+
+
+
+
